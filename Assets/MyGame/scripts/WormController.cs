@@ -10,6 +10,7 @@ public class WormController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        /* 
         if (x>0)
     {
         Debug.Log("x ist größer als 0");
@@ -29,8 +30,13 @@ public class WormController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void Update() 
     {
-        
+        */
+    
+    if (x > 10) {
+        Debug.Log("x ist größer oder gleich als 10");
+    }
+
     }
 }
